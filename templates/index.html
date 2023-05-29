@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Rahul Hundare</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../static/animate.css">
+	<link rel="stylesheet" href="../static/flexslider.css">
+	<link rel="stylesheet" href="../static/fonts/icomoon/style.css">
+
+	<link href="../static/assets/favicon.ico" rel="icon">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../static/bootstrap.css">
+	<link rel="stylesheet" href="../static/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+<!-- Include a polyfill for ES6 Promises (optional) for IE11 -->
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+
+
+<link rel="stylesheet" href="@sweetalert2/theme-dark/dark.css">
+
+<script src="sweetalert2/dist/sweetalert2.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+
+
+	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-academics">Academics</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-certificates">Certificates</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-achievements">Achievements</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+<!-- HOME -->
+
+	<section class="site-hero" style="background-image: url(../static/assets/images/image_1.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row intro-text align-items-center justify-content-center" >
+				<div class="col-md-10 text-center pt-5">
+					<h1 class="site-heading site-animate" style=" font-size: 80px; padding-bottom: 250px;" >Hello, I'm</h1>
+					
+					<a href="#" class="glitch"  data-glitch="Rahul Hundare">Rahul Hundare</a>
+						
+						<span class="text_1"><b>Data Enthusiast</b>	</span>
+						<span class="text_2"><b>MBA Aspirant</b>
+					</span>	
+					
+					
+					<STYle>
+						@keyframes typewriter {
+						0%, 100% {
+							width: 0;
+						}
+						20%, 80% {
+							width: 12em;
+						}
+						}
+
+						@keyframes caret {
+						0%, 100% {
+							opacity: 0;
+						}
+						80% {
+							opacity: 1;
+						}
+						}
+
+
+						@keyframes text2 {
+							0%, 50%, 100% {
+								width: 0;
+							}
+							
+							60%, 90% {
+								width: 11em;
+							}
+							}
+							@keyframes text1 {
+							0%, 50%, 100% {
+								width: 0;
+							}
+							10%, 40% {
+								width: 18em;
+							}
+							}
+							
+						
+
+							.text_1 {
+							animation: text1;
+							}
+							.text_2 {
+							animation: text2;
+							}
+
+							.text_0 {
+							overflow: hidden;
+							white-space: nowrap;
+							animation: typewriter;
+							display: inline-block;
+							position: relative;
+							animation-duration: 8s;
+							animation-timing-function: steps(25, end);
+							font-family: 'Audiowide', cursive;
+							animation-iteration-count: 0;
+							}
+
+
+							.text_0::after {
+							content: "|";
+							position:relative;
+							color:green;
+							right: 0;
+							animation: caret infinite;
+							animation-duration: 1s;
+							animation-timing-function: steps(1, end);
+							}
+
+							.text_1, .text_2 {
+							overflow: hidden;
+							font-size: 35px;
+							color:white;
+							white-space: nowrap;
+							display: inline-block;
+							position: relative;
+							animation-duration: 8s;
+							animation-timing-function: steps(25, end);
+							animation-iteration-count: infinite;
+							}
+							.text_1::after, .text_2::after {
+							content: "_";
+							position: absolute;
+							right: 0;
+							color:green;
+							animation: caret infinite;
+							animation-duration: 1s;
+							animation-timing-function: steps(1, end);
+							}
+
+					</STYle>
+
+				</div>
+			</div>
+		</div>
+	</section> <!-- section -->
+
+
+
+
+<!-- ABOUT -->
+
+		<section class="site-section" id="section-about">
+			<div class="container">
+				<div class="row mb-5 align-items-center">
+					<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+						<img src="../static/assets/images/Pic.JPG" alt="Image placeholder" class="img-fluid">
+					</div>
+					<div class="col-lg-5 pl-lg-5">
+						<div class="section-heading">
+							<h2>About <strong>Me</strong></h2>
+						</div>
+						<p class="lead">Passionate about anything to do with technology, be it business ideas or designing. 
+							<br>Dedicated, people friendly, leader by instinct and eager to apply what is learnt in classroom in the corporate world.
+							<br>Looking forward to contribute in the challenging area of intrest to the client.
+						<p>
+							<a href="../static/assets/Rahul Hundare.pdf" target="_blank" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+						</p>
+					</div>
+				</div>
+	
+	
+			</div>
+		</section>
+
+
+<!-- ACADEMICS -->
+
+
+<section class="site-section" id="section-academics">
+	<div class="container">
+		<div class="row">
+			<div class="section-heading text-center col-md-12">
+				<h2><strong>Academics</strong></h2>
+			</div>
+		</div>
+
+		<!-- EDUCATION -->
+
+<section class="site-section " id="section-academics">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mb-5">
+				<div class="section-heading text-center">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h2 class="mb-5">Education</h2>
+				<div class="resume-item mb-4">
+					<span class="date"><span class="icon-calendar"></span> December 2021 - Present</span>
+					<h3>MBA in Business Analytics</h3>
+					<p>
+						JSIMR, Hadapsar<br>
+					</p>
+					<span class="school">Pune</span>
+				</div>
+
+				<div class="resume-item mb-4">
+					<span class="date"><span class="icon-calendar"></span> August 2018 - July 2021</span>
+					<h3>BA in Civil Services</h3>
+					<p>
+						DCAS, Solapur<br>
+						CGPA 9.53</p>
+					<span class="school">Solapur</span>
+				</div>
+
+				<div class="resume-item mb-4">
+					<span class="date"><span class="icon-calendar"></span> February 2017</span>
+					<h3>HSC (Science)</h3>
+					<p>	SJCS, Jule Solapur<br>
+						Percentage  56.15 %</p></p>
+					<span class="school">Solapur</span>
+				</div>
+
+				<div class="resume-item mb-4">
+					<span class="date"><span class="icon-calendar"></span> March 2015</span>
+					<h3>SSC</h3>
+					<p>	SVP, Jule Solapur<br>
+						Percentage  81.80 %</p></p>
+					<span class="school">Solapur</span>
+				</div>
+
+			</div>
+			<div class="col-md-6"> 
+
+				<!-- PROJECTS -->
+
+
+				<h2 class="mb-5">Projects</h2>
+
+				<div class="resume-item mb-4">
+					<h3>Google Cloud Project </h3>
+					<p>Hands on experiance in various cloud technologies like Kubernetes Engine, IOTs, BigQuery, Cloud SQL and trained ML models.</p>
+					<span class="school">Google Cloud</span>
+				</div>
+
+				<div class="resume-item mb-4">
+					<h3>Personal Portfoilo Website</h3>
+					<p>Developed a website showcasing projects undertaken using HTML, CSS, Bootstrap and Javascript.</p>
+					<span class="school">Own</span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section> <!-- .section -->
+
+
+<!-- CERTIFICATES -->
+
+	<section class="site-section" id="section-certificates">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading text-center col-md-12">
+					<h2> <strong>Certificates</strong></h2>
+				</div>
+			</div>
+
+			<div class="filters-content">
+				<div class="row grid">
+					<div class="single-portfolio col-sm-4 all mockup">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img  class="image img-fluid" src="../static/assets/images/Python Programming certificate.jpg" alt="">
+							</div>
+							<a href="../static/assets/images/Python Programming certificate.jpg"  class="img-pop-up">  
+								
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<a href="../static/assets/images/Python Programming certificate.jpg" target="_blank"><h4>Python Programming</h4>
+						</a>
+						</div>                                         
+					</div>
+					<div class="single-portfolio col-sm-4 all mockup">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="../static/assets/images/Advanced_Google_Analytics_Certificate.jpg" alt="">
+							</div>
+							<a href="../static/assets/images/Advanced_Google_Analytics_Certificate.jpg" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="../static/assets/images/preview.png" alt=""></div>
+								</div>
+							</a>                                  
+						</div>
+						<div class="p-inner">
+							<a href="../static/assets/images/Advanced_Google_Analytics_Certificate.jpg" target="_blank"><h4>Advanced Google Analytics</h4></a>
+						</div>                                         
+					</div>                            
+					<div class="single-portfolio col-sm-4 all packaging">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="../static/assets/images/Web Dev certificate.jpg" alt="">
+							</div>
+							<a href="../static/assets/images/Web Dev certificate.jpg" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="../static/assets/images/preview.png" alt=""></div>
+								</div>
+							</a> 
+
+						</div>
+						<div class="p-inner">
+							<a href="../static/assets/images/Web Dev certificate.jpg" target="_blank"><h4>Web Development</h4></a>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all packaging">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="../static/assets/images/Python_basics-I.jpg" alt="">
+							</div>
+							<a href="../static/assets/images/Python_basics-I.jpg" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="../static/assets/images/preview.png" alt=""></div>
+								</div>
+							</a>                                
+						</div> 
+						<div class="p-inner">
+							<a href="../static/assets/images/Python_basics-I.jpg" target="_blank"><h4>Python Basics</h4></a>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all typography">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="../static/assets/images/Ethical Hackingcertificate.jpg" alt="">
+							</div>
+							<a href="../static/assets/images/Ethical Hackingcertificate.jpg" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="../static/assets/images/preview.png" alt=""></div>
+								</div>
+							</a>                                
+						</div>
+						<div class="p-inner">
+							<a href="../static/assets/images/Ethical Hackingcertificate.jpg" target="_blank"><h4>Ethical Hacking</h4></a>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all photography">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="../static/assets/images/Introduction_to_data_science_certificate.jpg" alt="">
+							</div>
+							<a href="../static/assets/images/Introduction_to_data_science_certificate.jpg" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="../static/assets/images/preview.png" alt=""></div>
+								</div>
+							</a>                                
+						</div>
+						<div class="p-inner">
+							<a href="#" target="_blank">
+							<a href="../static/assets/images/Introduction_to_data_science_certificate.jpg" target="_blank"><h4>Data Science</h4></a>
+						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- .section -->
+
+	
+
+
+
+
+
+
+	<!-- ACHIEVEMENTS-->
+
+
+	
+
+	<section class="site-section" id="section-achievements">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2> <strong>Achievements</strong></h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="../static/assets/images/business plan.jpg" target="_blank"><img src="../static/assets/images/business plan.jpg" alt="Image placeholder" class="img-fluid"></a>
+						<div class="blog-entry-text">
+							<h3>Business Plan Competition</h3>
+							<p class="mb-4">Secured Runners Up position in National Business Plan Comeptition at SBIMS, Pune, showcasing an EV Rental Service platform, "Pronto Momentum".</p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="../static/assets/images/dynamic leader.jpg" target="_blank"><img src="../static/assets/images/dynamic leader.jpg" alt="Image placeholder" class="img-fluid"></a>
+						<div class="blog-entry-text">
+							<h3>Dynamic Leader</h3>
+							<p class="mb-4">Won Dynamic Leader award during post graduation for leading students in various activities like Sports, Annual Function, Fresher Party at JSIMR, Hadapsar.</p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="../static/assets/images/DGS.jpg" target="_blank"><img src="../static/assets/images/DGS.jpg" alt="Image placeholder" class="img-fluid"></a>
+						<div class="blog-entry-text">
+							<h3>Deputy General Secretary</h3>
+							<p class="mb-4">Elected as Deputy General Secretary </p>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- CONTACt -->
+
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Get <strong>In Touch</strong></h2>
+					</div>
+				</div>
+				
+				<div class="col-md-7 mb-5 mb-md-0">
+					<form action="submit_form" class="site-form" method="post">
+						<h3 class="mb-5">Get In Touch</h3>
+						<div class="form-group">
+							<input name="name" type="text" class="form-control px-3 py-4" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<input name="email" type="email" class="form-control px-3 py-4" placeholder="Your Email">
+						</div>
+						<div class="form-group mb-5">
+							<textarea name="message" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+						</div>
+					</form>
+					<script>
+
+						function test()
+						{
+							Swal.fire('Thanks For Contacting Us..')
+							window.scrollTo(0,document.body.scrollHeight);
+						
+						}
+						{{ code }}
+					</script>
+				</div>
+				<div class="col-md-5 pl-md-5">
+					<h3 class="mb-5">My Contact Details</h3>
+					<ul class="site-contact-details">
+						<li>
+							<span class="text-uppercase">Email</span>
+							rrhundare@gmail.com
+						</li>
+						<li>
+							<span class="text-uppercase">Phone</span>
+							+91 91757 23607
+						</li>
+						
+						<li>
+							<span class="text-uppercase">Address</span>
+							Greencity<br>
+							Satav Nagar, Hadapsar  <br>
+							Pune-411028  <br>
+							Maharashtra
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- FOOTER -->
+
+
+	<footer class="site-footer">
+		<div class="container">
+
+			<div class="row mb-5">
+				<p class="col-12 text-center">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="#" target="_blank" class="text-primary">Rahul Hundare</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</p>
+			</div>
+			
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="https://github.com/rahulhundare" target="_blank" class="social-item"><span class="icon-github"></span></a>
+						<a href="https://twitter.com/cipher__1" target="_blank" class="social-item"><span class="icon-twitter"></span></a>
+						<a href="https://www.linkedin.com/in/rrhundare/" target="_blank" class="social-item"><span class="icon-linkedin2"></span></a>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+
+
+
+	<script src="../static/vendor/jquery.min.js"></script>
+	<script src="../static/vendor/jquery-migrate-3.0.1.min.js"></script>
+	<script src="../static/vendor/popper.min.js"></script>
+	<script src="../static/vendor/bootstrap.min.js"></script>
+
+	<script src="../static/vendor/jquery.easing.1.3.js"></script>
+
+	<script src="../static/vendor/jquery.stellar.min.js"></script>
+	<script src="../static/vendor/jquery.waypoints.min.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="../static/custom.js"></script>
+
+	<!-- Google Map -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    	<script src="../static/google-map.js"></script> -->
+
+    </body>
+    </html>
